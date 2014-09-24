@@ -1,0 +1,388 @@
+COMPLETE REMOVAL
+obscenity
+ethnic_slur
+
+PARTIAL REMOVAL (manual)
+slang
+derogation
+term for
+terms for
+bitch
+
+******************************************************************************************
+grep --color=always -inR "obscenity,;u"
+
+adj.all:10590:{ [ shitless, noun.communication:obscenity,;u ] witless, ((used as complement) to the utmost degree; "he was scared witless"; "the students were bored shitless") }
+noun.act:4312:{ [ fuck, verb.contact:fuck,+ ] [ fucking, verb.contact:fuck,+ ] [ screw, verb.contact:screw4,+ ] [ screwing, verb.contact:screw4,+ ] ass, nooky, nookie, piece_of_ass, piece_of_tail, roll_in_the_hay, shag1, shtup, sexual_intercourse,@ noun.communication:obscenity,;u noun.communication:slang,;u (slang for sexual intercourse) }
+noun.body:1597:{ cock, prick, dick, shaft1, pecker, tool, putz, penis,@ noun.communication:obscenity,;u (obscene terms for penis) }
+noun.communication:1900:{ [ bullshit, verb.communication:bullshit,+ ] [ bull, verb.communication:bull,+ ] Irish_bull, horseshit, shit, [ crap, adj.all:bad^crappy,+ ] dogshit, bunk,@ obscenity,;u (obscene words for unacceptable behavior; "I put up with a lot of bullshit from that jerk"; "what he said was mostly bull") }
+noun.communication:1902:{ chickenshit, drivel,@ obscenity,;u (a false statement that is considered to indicate timidity or fear) }
+noun.person:1881:{ asshole, bastard, cocksucker, dickhead, shit, mother_fucker, motherfucker, prick, whoreson1, son_of_a_bitch, SOB, unpleasant_person,@ noun.communication:obscenity,;u (insulting terms of address for people who are stupid or irritating or ridiculous) }
+noun.process:556:{ [ peeing, verb.body:pee,+ ] [ pee, verb.body:pee,+ ] [ pissing, verb.body:piss,+ ] [ piss, verb.body:piss,+ ] micturition,@ noun.communication:obscenity,;u (informal terms for urination; "he took a pee") }
+noun.quantity:1303:{ bugger_all, fuck_all, Fanny_Adams, sweet_Fanny_Adams, nothing,@ noun.location:Britain,;r noun.communication:obscenity,;u (little or nothing at all; "I asked for a raise and they gave me bugger-all"; "I know sweet Fanny Adams about surgery") }
+noun.substance:1482:{ [ crap, verb.body:crap,+ ] dirt2, [ shit, verb.body:shit,+ verb.communication:shit9,+ ] shite, poop, turd, fecal_matter,@ noun.communication:obscenity,;u (obscene terms for feces) }
+
+******************************************************************************************
+grep --color=always -inR "ethnic_slur,;u"
+
+noun.person:846:{ coolie, cooly, Asian,@ noun.communication:derogation,;u noun.communication:ethnic_slur,;u ((ethnic slur) an offensive name for an unskilled Asian laborer) }
+noun.person:1066:{ kike, hymie, sheeny, yid, Jew,@ noun.communication:ethnic_slur,;u noun.communication:derogation,;u noun.communication:slang,;u ((ethnic slur) offensive term for a Jew) }
+noun.person:1165:{ chink, Chinaman, Chinese,@ noun.communication:derogation,;u noun.communication:ethnic_slur,;u noun.communication:slang,;u ((ethnic slur) offensive term for a person of Chinese descent) }
+noun.person:1281:{ Paddy, Mick, Mickey, Irishman,@ noun.communication:ethnic_slur,;u noun.communication:derogation,;u ((ethnic slur) offensive term for a person of Irish descent) }
+noun.person:1286:{ wop, dago, ginzo, Guinea, greaseball, Italian,@ noun.communication:ethnic_slur,;u noun.communication:derogation,;u noun.communication:slang,;u ((ethnic slur) offensive term for a person of Italian descent) }
+noun.person:1311:{ spic, spik, spick, Latin_American,@ noun.communication:ethnic_slur,;u noun.communication:derogation,;u noun.communication:slang,;u ((ethnic slur) offensive term for persons of Latin American descent) }
+noun.person:1329:{ greaser, wetback, taco, Mexican,@ noun.communication:ethnic_slur,;u noun.communication:derogation,;u ((ethnic slur) offensive term for a person of Mexican descent) }
+noun.person:5570:{ pickaninny, piccaninny, picaninny, Black,@ child,@ noun.communication:ethnic_slur,;u noun.communication:derogation,;u ((ethnic slur) offensive term for a Black child) }
+
+******************************************************************************************
+grep --color=always -inR "slang,;u"
+grep --color=always -inR "derogation,;u"
+grep --color=always -inR "bitch"
+grep --color=always -inR "terms for"
+grep --color=always -inR "term for"
+
+adj.all:8361:{ [ butch, noun.person:butch,+ ] noun.communication:slang,;u ((of male or female homosexuals) characterized by stereotypically male traits or appearance)}
+adj.pert:3273:{ [ mongoloid, noun.state:mongolism,\ ] noun.communication:derogation,;u ((offensive) of or relating to or suffering from Down syndrome) }
+noun.act:4356:{ cock_sucking, blowjob, fellatio,@ noun.communication:slang,;u (slang for fellatio) }
+noun.act:4362:{ jacking_off, jerking_off, hand_job, [ wank, verb.contact:wank,+ ] masturbation,@ noun.communication:slang,;u (slang for masturbation) }
+noun.group:2223:{ rabble1, riffraff, ragtag, ragtag_and_bobtail, folk,@ (disparaging terms for the common people) }
+noun.artifact:898:{ Bedlam, booby_hatch, crazy_house, cuckoo's_nest, funny_farm, funny_house, loony_bin, madhouse, nut_house, nuthouse, sanatorium1, snake_pit, mental_hospital,@ (pejorative terms for an insane asylum) }
+noun.artifact:794:{ [ bastard, adj.all:counterfeit^bastard,+ adj.all:contemptible^bastardly,+ verb.social:bastardize,+ verb.social:bastardise,+ ] [ mongrel, verb.contact:mongrelize,+ ] variation,@ noun.communication:derogation,;u (derogatory term for a variation that is not genuine; something irregular or inferior or of dubious origin; "the architecture was a kind of bastard suggesting Gothic but not true Gothic") }
+noun.body:252:{ minge, pubic_hair,@ female_genitalia,@ (vulgar term for a woman's pubic hair or genitals) }
+noun.body:1571:{ cunt, puss, pussy, slit, snatch, twat, female_genitalia,@ (obscene terms for female genitals) }
+noun.body:1653:{ arse, arsehole, asshole, bunghole, anus,@ noun.communication:slang,;u (vulgar slang for anus) }
+noun.process:670:{ [ shit, verb.body:shit,+ verb.communication:shit9,+ ] dump, defecation,@ (a coarse term for defecation; "he took a shit") }
+noun.state:2484:{ the_shits, the_trots, diarrhea,@ noun.communication:slang,;u (obscene terms for diarrhea) }
+noun.state:2688:{ bitch, difficulty,@ noun.communication:slang,;u (an unpleasant difficulty; "this problem is a real bitch") }
+noun.person:841:{ white_trash, poor_white_trash, White,@ poor_person,@ noun.communication:derogation,;u noun.communication:slang,;u ((slang) an offensive term for White people who are impoverished) }
+noun.person:842:{ whitey, honky, honkey, honkie, White,@ noun.communication:derogation,;u noun.communication:slang,;u ((slang) offensive names for a White man) }
+noun.person:977:{ Redskin, Injun, red_man, Native_American,@ noun.communication:derogation,;u noun.communication:slang,;u ((slang) offensive term for Native Americans) }
+noun.person:1510:{ Kraut, Krauthead, Boche, Jerry, Hun1, German,@ noun.communication:derogation,;u noun.communication:slang,;u (offensive term for a person of German descent) }
+noun.person:2305:{ [ butch, adj.all:homosexual^butch,+ ] dike, dyke, lesbian,@ noun.communication:derogation,;u noun.communication:slang,;u ((slang) offensive term for a lesbian who is noticeably masculine) }
+noun.person:1300:{ Jap, Nip, Japanese,@ noun.communication:slang,;u noun.communication:derogation,;u ((offensive slang) offensive term for a person of Japanese descent) }
+noun.person:7718:{ wog, person_of_color,@ noun.communication:derogation,;u noun.communication:slang,;u noun.location:Britain,;r ((offensive British slang) term used by the British to refer to people of color from Africa or Asia) }
+noun.person:1060:{ [ papist, adj.pert:papist,+ noun.act:papism,+ adj.pert:papistic,+ adj.pert:papistical,+ ] Roman_Catholic,@ noun.communication:derogation,;u (an offensive term for Roman Catholics; originally, a Roman Catholic who was a strong advocate of the papacy) }
+noun.person:1197:{ pommy, pom, English_person,@ noun.location:Australia,;r noun.location:New_Zealand,;r (a disparaging term for a British person) }
+noun.person:3424:{ fagot, faggot, fag, fairy1, nance, pansy, queen2, queer, poof, poove, pouf, gay,@ noun.communication:derogation,;u (offensive term for a homosexual man) }
+noun.person:1805:{ apparatchik1, official1,@ (a humorous but derogatory term for an official of a large organization (especially a political organization); "Democratic apparatchiks") }
+noun.person:4237:{ Indian_giver, donor,@ noun.communication:derogation,;u (an offensive term for someone who asks you to return a present he has given you) }
+noun.person:4385:{ kaffir, kafir, caffer, caffre, Black_African,@ noun.location:South_Africa,;r noun.communication:derogation,;u (an offensive and insulting term for any Black African) }
+noun.person:4736:{ mammy1, nanny,@ noun.communication:derogation,;u (an offensive term for a Black nursemaid in the southern U.S.) }
+noun.person:4990:{ mongoloid, idiot,@ noun.communication:derogation,;u (a person suffering from Down syndrome (no longer used technically in this sense, now considered offensive)) }
+noun.person:5003:{ Moonie, religious_person,@ noun.group:Unification_Church,#m noun.communication:derogation,;u (an often derogatory term for a member of the Unification Church) }
+noun.person:6481:{ shegetz, goy,@ noun.communication:derogation,;u noun.communication:Yiddish,;u (an offensive term for non-Jewish young man; "why does she like all those shkotzim?") }
+noun.person:6490:{ shiksa, shikse, woman,@ noun.communication:derogation,;u noun.communication:Yiddish,;u (a derogatory term used by Jews to refer to non-Jewish women) }
+noun.person:6918:{ street_arab, gamin, throwaway, street_urchin,@ noun.communication:derogation,;u ((sometimes offensive) a homeless boy who has been abandoned and roams the streets) }
+noun.person:7318:{ tree_hugger, environmentalist,@ noun.communication:derogation,;u (derogatory term for environmentalists who support restrictions on the logging industry and the preservation of forests) }
+noun.person:3945:{ half-breed, half-caste,@ noun.communication:derogation,;u (an offensive term for an offspring of parents of different racial group (especially of Caucasian and American Indian ancestry)) }
+noun.person:2584:{ closet_queen, gay,@ (a negative term for a homosexual man who chooses not to reveal his sexual orientation) }
+noun.person:3877:{ gringo, foreigner,@ (a Latin American (disparaging) term for foreigners (especially Americans and Englishmen)) }
+noun.person:4070:{ hillbilly, bushwhacker, rustic,@ (a disparaging term for an unsophisticated person) }
+noun.person:4786:{ Marrano, Converso,@ ((medieval Spain and Portugal) a disparaging term for a Jew who converted to Christianity in order to avoid persecution but continued to practice their religion secretly) }
+noun.person:5605:{ placeman, placeseeker, appointee,@ noun.location:Britain,;r (a disparaging term for an appointee) }
+noun.person:6802:{ squaw, Native_American,@ (derogatory terms for an American Indian woman) }
+noun.person:6803:{ squaw_man, white_man,@ (derogatory term for a white man married to a North American Indian woman) }
+noun.person:7043:{ switch-hitter1, bisexual,@ (slang term for a bisexual person) }
+noun.person:2890:{ cunt, bitch, unpleasant_person,@ (a person (usually but not necessarily a woman) who is thoroughly disliked; "she said her son thought Hillary was a bitch") }
+noun.person:2275:{ bull, [ cop, verb.contact:cop,+ ] copper, fuzz, pig1, policeman,@ noun.communication:colloquialism,;u (uncomplimentary terms for a policeman) }
+noun.person:6218:{ [ runt, adj.all:small^runty,+ adj.all:short3^runty,+ ] [ shrimp, adj.all:small^shrimpy,+ ] peewee, half-pint, small_person,@ (disparaging terms for small people) }
+
+noun.communication:5300:{ [ gripe, verb.communication:gripe,+ ] [ kick, verb.communication:kick,+ ] [ beef, verb.communication:beef,+ ] [ bitch, adj.all:malicious^bitchy,+ verb.communication:bitch,+ ] [ squawk, verb.communication:squawk,+ ] objection,@ (informal terms for objecting; "I have a gripe about the service here") }
+
+SPOTTED MANUALLY
+noun.act:4314:{ hank_panky, sexual_intercourse,@ (illicit sexual intercourse) }
+
+USING FILTER LISTs
+      https://github.com/shutterstock/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/blob/master/en
+      https://gist.github.com/jamiew/1112488
+      and manually fixing the list to follow WN conventions like using '_' for '-' and space, removing improbables like _[a-z]_,  [^a-z_] and [0-9]
+grep --exclude=hits.txt -winRFf ../../filter_list.en > hits.txt
+grep -winRFf filter_list.en dict/dbfiles1 > hits.txt
+
+adj.all:1090:{ [ crafty, noun.cognition:craft,+ noun.cognition:craftiness,+ ] cunning, [ dodgy, noun.cognition:dodge,+ ] [ foxy, noun.person:fox,+ noun.cognition:foxiness,+ ] guileful, knavish, [ slick, noun.communication:slickness,+ noun.attribute:slickness2,+ ] [ sly, noun.cognition:slyness,+ ] [ tricksy, noun.act:trick5,+ ] [ tricky, noun.attribute:trickiness,+ noun.act:trick5,+ ] [ wily, noun.act:wile,+ noun.cognition:wiliness,+ ] (marked by skill in deception; "cunning men often pass for wise"; "deep political machinations"; "a foxy scheme"; "a slick evasive answer"; "sly as a fox"; "tricky Dick"; "a wily old attorney") }
+adj.all:1659:{ [ bitchy, noun.communication:bitch,+ noun.attribute:bitchiness,+ ] [ catty, noun.person:cat,+ noun.attribute:cattiness,+ ] cattish, (marked by or arising from malice; "a catty remark") }
+adj.all:3305:{ bare-assed, bare-ass, in_the_altogether, in_the_buff, in_the_raw, raw, peeled, naked_as_a_jaybird, stark_naked, noun.communication:colloquialism,;u ((used informally) completely unclothed) }
+adj.all:3306:{ bare-breasted, braless, topless, (having the breasts uncovered or featuring such nudity; "topless waitresses"; "a topless cabaret") }
+adj.all:4758:{ blasted, blame, blamed, blessed1, damn2, [ damned, noun.group:damned,+ ] darned2, deuced, goddam, goddamn2, goddamned2, infernal, (expletives used informally as intensifiers; "he's a blasted idiot"; "it's a blamed shame"; "a blame cold winter"; "not a blessed dime"; "I'll be damned (or blessed or darned or goddamned) if I'll do any such thing"; "he's a damn (or goddam or goddamned) fool"; "a deuced idiot"; "an infernal nuisance") }
+adj.all:4760:{ damn, goddamn, (used as expletives; "oh, damn (or goddamn)!") }
+adj.all:6344:{ [ bastardly, noun.artifact:bastard,+ ] mean, (of no value or worth; "I was caught in the bastardly traffic") }
+adj.all:7816:{ bogus, [ fake, noun.person:fake,+ ] [ phony, noun.person:phony,+ ] [ phoney, noun.person:phoney,+ ] [ bastard, noun.artifact:bastard,+ ] (fraudulent; having a misleading appearance) }
+adj.all:7883:{ icky, [ crappy, noun.communication:crap,+ ] [ lousy, noun.attribute:lousiness,+ ] rotten3, [ shitty, noun.attribute:shit,+ ] stinking, stinky, noun.communication:colloquialism,;u (very bad; "a lousy play"; "it's a stinking world") }
+adj.all:8993:{ dissipated, betting, card-playing, sporting, (preoccupied with the pursuit of pleasure and especially games of chance; "led a dissipated life"; "a betting man"; "a card-playing son of a bitch"; "a gambling fool"; "sporting gents and their ladies") }
+adj.all:10637:{ bally(a), blinking(a), bloody(a), blooming(a), crashing(a), flaming(a), fucking(a), (informal intensifiers; "what a bally (or blinking) nuisance"; "a bloody fool"; "a crashing bore"; "you flaming idiot") }
+adj.all:11681:{ fucked-up, [ snafu, noun.act:snafu,+ ] (snarled or stalled in complete confusion; "situation normal--all fucked-up") }
+adj.all:14357:[{ [ SADISTIC, noun.feeling:sadism,+ MASOCHISTIC,!] (deriving pleasure or sexual gratification from inflicting pain on another) }
+# NOT LISTED IN THE FILTER_LIST.EN - SPOTTED MANUALLY
+{ [ MASOCHISTIC, noun.feeling:masochism,+ SADISTIC,!] (deriving pleasure or sexual gratification from being abused or dominated) }]
+adj.all:14897:{ [ ANESTROUS, ESTROUS,!] noun.animal:mammal,;c ((of lower mammals) not in a state of estrus; not in heat; "an anestrous bitch") }
+adj.all:16944:{ blowsy, blowzy, [ slatternly, noun.person:slattern1,+ noun.person:slattern,+ noun.attribute:slatternliness,+ ] [ sluttish, noun.attribute:sluttishness,+ ] (characteristic of or befitting a slut or slattern; used especially of women) }
+adv.all:136:{ bloody, damn, [ all-fired, adj.all:immoderate^all-fired,\ ] [ all-firedly, adj.all:immoderate^all-fired,\ ] noun.communication:intensive,;u (extremely; "you are bloody right"; "Why are you so all-fired aggressive?") }
+adv.all:173:{ fucking, (intensifier, very colloquial; "what took you so fucking long?") }
+adv.all:2164:{ [ honestly, adj.all:sincere^honest,\] [ candidly, adj.all:direct2^candid,\] [ frankly, adj.all:direct2^frank,\] noun.communication:intensive,;u ((used as intensives reflecting the speaker's attitude) it is sincerely the case that; "honestly, I don't believe it"; "candidly, I think she doesn't have a conscience"; "frankly, my dear, I don't give a damn") }
+adv.all:2397:{ goddam, goddamn, goddamned, noun.communication:intensive,;u (extremely; "you are goddamn right!") }
+noun.act:219:{ [ blunder, verb.social:blunder,+ ] blooper, bloomer, [ bungle, verb.social:bungle,+ verb.body:bungle,+ ] pratfall, [ foul-up, verb.social:foul_up,+ ] [ fuckup, verb.social:fuck_up,+ ] [ flub, verb.social:flub,+ ] [ botch, adj.all:unskilled^botchy,+ verb.social:botch,+ ] boner, boo-boo, mistake,@ (an embarrassing mistake) }
+noun.act:220:{ [ snafu, adj.all:disorganized^snafu,+ verb.change:snafu,+ ] blunder,@ noun.communication:acronym,;u (an acronym often used by soldiers in World War II: situation normal all fucked up) }
+noun.act:222:{ [ ballup, verb.social:ball_up,+ ] balls-up, cockup, [ mess-up, verb.social:mess_up,+ ] mistake,@ noun.location:Britain,;r (something badly botched or muddled) }
+noun.act:2524:{ piss-up, bust,@ noun.location:Britain,;r (vulgar expression for a bout of heavy drinking) }
+noun.act:2629:{ nude_dancing, stage_dancing,@ (erotic dancing with little or no clothing) }
+noun.act:2631:{ [ strip, verb.change:strip12,+ verb.body:strip1,+ ] [ striptease, noun.person:stripteaser,+ ] strip_show, nude_dancing,@ (a form of erotic entertainment in which a dancer gradually undresses to music; "she did a strip right in front of everyone") }
+noun.act:3775:{ zoophilia, zoophilism, paraphilia,@ (a sexual attraction to animals) }
+noun.act:3826:{ child_pornography, kiddie_porn, kiddy_porn, pornography,@ (the illegal use of children in pornographic pictures or films) }
+noun.act:4303:{ bondage, sexual_activity,@ (sexual practice that involves physically restraining (by cords or handcuffs) one of the partners) }
+noun.act:4351:{ oral_sex, head, perversion1,@ (oral stimulation of the genitals; "they say he gives good head") }
+noun.act:4352:{ cunnilingus, cunnilinctus, oral_sex,@ (oral stimulation of the vulva or clitoris) }
+noun.act:4353:{ fellatio, [ fellation, verb.perception:fellate,+ ] oral_sex,@ (oral stimulation of the penis) }
+noun.act:4354:{ cock_sucking, blowjob, fellatio,@ noun.communication:slang,;u (slang for fellatio) }
+noun.act:4354:{ soixante-neuf, sixty-nine, oral_sex,@ (oral sex practiced simultaneously by two people) }
+noun.act:4366:{ [ tribadism, adj.all:tribadistic,+ ] lesbianism,@ (a form of lesbianism that simulates heterosexual intercourse) }
+noun.act:4368:{ pederasty, paederasty, homosexuality,@ paraphilia,@ (sexual relations between a man and a boy (usually anal intercourse with the boy as a passive partner)) }
+noun.act:4369:{ bestiality, zooerastia, zooerasty, sodomy1, sexual_activity,@ (sexual activity between a person and an animal) }
+noun.act:5282:{ transvestism, transvestitism, cross_dressing, practice,@ (the practice of adopting the clothes or the manner or the sexual role of the opposite sex) }
+# NOT LISTED IN THE FILTER_LIST.EN - SPOTTED MANUALLY
+noun.act:{ self-flagellation, whipping,@ self-punishment,@ (self-punishment inflicted by whipping) }
+noun.act:5996:{ flagellation1, beating,@ (beating as a source of erotic or religious stimulation) }
+noun.act:6302:{ [ bitchery, verb.communication:bitch,+ ] aggression1,@ (aggressive remarks and behavior like that of a spiteful malicious woman) }
+noun.artifact:3164:{ dildo, vibrator,@ (a vibrating device that substitutes for an erect penis to provide vaginal stimulation) }
+noun.artifact:3366:{ drag, clothing,@ (clothing that is conventionally worn by the opposite sex (especially women's clothing when worn by a man); "he went to the party dressed in drag"; "the waitresses looked like missionaries in drag") }
+noun.artifact:6309:{ massage_parlor1, whorehouse,@ (a place where illicit sex is available under the guise of therapeutic massage) }
+noun.artifact:7302:{ pasty, patch,@ ((usually used in the plural) one of a pair of adhesive patches worn to cover the nipples of exotic dancers and striptease performers) }
+noun.attribute:2583:{ missionary_position, position1,@ (a position for sexual intercourse; a man and woman lie facing each other with the man on top; so-called because missionaries thought it the proper position for primitive peoples) }
+noun.cognition:884:{ wet_dream, dream1,@ (an erotic dream (usually at night) accompanied by the (nocturnal) emission of semen) }
+noun.communication:2551:{ [ bastardization, verb.communication:bastardize,+ ] declaration,@ (declaring or rendering bastard; "the annulment of their marriage resulted in the bastardization of their children") }
+noun.feeling:93:{ [ sadism, adj.all:sadistic,+ noun.person:sadist,+ ] sexual_pleasure,@ (sexual pleasure obtained by inflicting harm (physical or psychological) on others) }
+noun.feeling:94:{ [ sadomasochism, adj.pert:sadomasochistic,+ noun.person:sadomasochist,+ ] sadism,@ masochism,@ (sadism and masochism combined in one person) }
+noun.feeling:95:{ [ masochism, adj.all:masochistic,+ noun.person:masochist,+ ] sexual_pleasure,@ (sexual pleasure obtained from receiving punishment (physical or psychological)) }
+noun.feeling:438:{ penis_envy, envy,@ noun.act:psychoanalysis,;c ((psychoanalysis) a female's presumed envy of the male's penis; said to explain femininity) }
+noun.group:638:{ menage_a_trois, family2,@ (household for three; an arrangement where a married couple and a lover of one of them live together while sharing sexual relations) }
+noun.object:421:{ dog_shit, dog_do, doggy_do, dog_turd, noun.substance:fecal_matter,@ (fecal droppings from a dog) }
+noun.person:1631:{ adulteress, fornicatress, hussy, jade, loose_woman, slut, strumpet, trollop, adulterer,@ (a woman adulterer) }
+noun.person:1857:{ ass, fool,@ (a pompous fool) }
+noun.person:2516:{ chump, [ fool1, verb.communication:fool1,+ verb.social:fool,+ ] [ gull, verb.social:gull,+ verb.communication:gull,+ ] mark, patsy, fall_guy, [ sucker1, verb.contact:suck,+ ] soft_touch, mug, victim1,@ (a person who is gullible and easy to take advantage of) }
+noun.person:2585:{ cocksucker1, sensualist,@ (a person who performs fellatio) }
+noun.person:3111:{ dominatrix, woman,@ (a dominating woman (especially one who plays that role in a sadomasochistic sexual relationship)) }
+noun.person:3191:{ dumbbell, dummy, [ dope, adj.all:stupid^dopy1,+ adj.all:stupid^dopey1,+ ] [ boob, verb.social:boob,+ ] booby, pinhead, simpleton,@ (an ignorant or foolish person) }
+noun.person:3193:{ dunce, dunderhead, numskull, blockhead, bonehead, lunkhead, hammerhead, knucklehead, loggerhead, muttonhead, shithead, dumbass, fuckhead, stupid,@ (a stupid person; these words are used to express a low opinion of someone's intelligence) }
+noun.person:3513:{ [ flagellant1, verb.contact:flagellate,+ ] masochist,@ (a person who is whipped or whips himself for sexual gratification) }
+noun.person:3643:{ fucker, fool,@ (a stupid despised man) }
+noun.person:3923:{ fathead, [ goof, adj.all:foolish^goofy,+ verb.social:goof,+ ] goofball, bozo1, jackass, [ goose, adj.all:stupid^goosy,+ adj.all:stupid^goosey,+ ] cuckoo, twat, [ zany1, adj.all:humorous^zany,+ adj.all:foolish^zany,+ ] fool,@ (a man who is a stupid incompetent fool) }
+noun.person:4364:{ kerb_crawler, driver,@ noun.location:Britain,;r (someone who drives slowly along the curb seeking sex from prostitutes or other women) }
+noun.person:4604:{ Lolita, lass,@ (a sexually precocious young girl) }
+noun.person:4767:{ [ masochist, noun.feeling:masochism,+ sadist,! ] pervert,@ (someone who obtains pleasure from receiving punishment) }
+noun.person:5455:{ [ pederast, adj.all:pederastic,+ ] [ paederast, adj.all:paederastic,+ ] child_molester, pervert,@ (a man who has sex (usually sodomy) with a boy as the passive partner) }
+noun.person:5829:{ [ prostitute, verb.social:prostitute,+ ] cocotte, [ whore, noun.act:whoredom,+ verb.social:whore,+ verb.contact:whore,+ ] harlot, [ bawd, adj.all:dirty2^bawdy,+ ] tart, cyprian2, fancy_woman1, working_girl1, sporting_lady, lady_of_pleasure, woman_of_the_street, woman,@ (a woman who engages in sexual intercourse for money) }
+noun.person:6163:{ rotter, dirty_dog, [ rat, verb.social:rat,+ ] skunk, stinker, stinkpot, [ bum2, adj.all:inferior2^bum,+ ] puke, crumb, lowlife, scum_bag, so-and-so, git, unpleasant_person,@ (a person who is deemed to be despicable or contemptible; "only a rotter would do that"; "kill the rat"; "throw the bum out"; "you cowardly little pukes!"; "the British call a contemptible person a `git'") }
+noun.person:6201:{ [ sadist, noun.feeling:sadism,+ masochist,! ] pervert,@ (someone who obtains pleasure from inflicting pain on others) }
+noun.person:6202:{ [ sadomasochist, noun.feeling:sadomasochism,+ ] pervert,@ (someone who enjoys both sadism and masochism) }
+noun.person:6889:{ [ stripper, verb.body:strip1,+ ] striptease_artist, [ striptease, noun.person:stripteaser,+ ] [ stripteaser, noun.person:striptease,+ noun.act:striptease,+ ] exotic_dancer4, ecdysiast, [ peeler, verb.body:peel2,+ ] performer,@ (a performer who provides erotic entertainment by undressing to music) }
+noun.person:7007:{ [ sycophant, adj.all:servile^sycophantic,+ noun.attribute:sycophancy,+ ] [ toady, verb.communication:toady,+ ] [ crawler, verb.motion:crawl3,+ ] lackey1, ass-kisser, flatterer,@ (a person who tries to please someone in order to gain a personal advantage) }
+noun.person:7210:{ tosser1, [ jerk-off, verb.contact:jerk_off,+ ] [ wanker, verb.contact:wank,+ ] masturbator,@ (terms of abuse for a masturbator) }
+noun.process:505:{ nocturnal_emission, ejaculation,@ noun.cognition:wet_dream,#p (ejaculation during sleep (usually during a dream)) }
+noun.process:587:{ premature_ejaculation, ejaculation,@ (ejaculation during the early stages of sexual excitement or soon after the insertion of the penis into the vagina) }
+verb.body:256:{ [ cross-dress, noun.person:cross-dresser,+ ] dress,@ frames: 2 (dress in the clothes of the other sex)}
+verb.body:370:{ [ stool, noun.artifact:stool1,+ noun.substance:stool,+ ] [ defecate, noun.process:defecation,+ noun.person:defecator,+ ] [ shit, noun.process:shit,+ noun.substance:shit,+ noun.person:shitter,+ noun.process:shitting,+ ] take_a_shit, take_a_crap, ca-ca, [ crap, noun.substance:crap,+ noun.artifact:crapper,+ ] make, excrete,@ frames: 2,1 (have a bowel movement; "The dog had made in the flower beds") }
+verb.body:547:{ give11, give10,$ verb.communication:consent,@ frames: 15 (consent to engage in sexual intercourse with a man; "She gave herself to many men") }
+verb.change:2378:{ eroticize, sex_up, change1,@ frames: 8 (give erotic character to or make more interesting; "eroticize the ads")}
+verb.contact:1216:{ sleep_together, roll_in_the_hay, [ love, noun.act:love,+ noun.feeling:love1,+ noun.person:lover2,+ ] make_out, make_love, sleep_with, get_laid, have_sex, know, do_it, be_intimate, have_intercourse, have_it_away, have_it_off, [ screw4, noun.act:screw,+ noun.act:screwing,+ noun.communication:archaism,;u frames: 9 ] [fuck, noun.act:fucking,+ noun.act:fuck,+ frames: 9] jazz, eff, [hump, frames: 9 ] [lie_with, frames: 9 ] [ bed, noun.artifact:bed,+ ] have_a_go_at_it, bang4, get_it_on, bonk1, copulate,@ frames: 2 (have sexual intercourse with; "This student sleeps with everyone in her dorm"; "Adam knew Eve"; "Were you ever intimate with this man?")}
+verb.contact:1217:{ take14, have, love,@ frames: 9 (have sex with; archaic use; "He had taken this woman when she was most vulnerable") }
+verb.contact:1219:{ [ swing8, noun.person:swinger,+ ] fornicate,@ frames: 2 (engage freely in promiscuous sex, often with the husband or wife of one's friends; "There were many swinging couples in the 1960's")}
+verb.contact:1220:{ [ whore, noun.person:whore,+ ] fornicate,@ frames: 2 (have unlawful sex with a whore) }
+verb.contact:1226:{ [ seduce, noun.act:seduction1,+ noun.person:seducer,+ ] [ score1, noun.act:score1,+ frames: 2] make13, make_love,* verb.communication: persuade,@ frames: 9 (induce to have sex; "Harry finally seduced Sally"; "Did you score last night?"; "Harry made Sally") }
+verb.contact:1234:{ [ masturbate, noun.act:masturbation,+ noun.person:masturbator,+ ] [ wank, noun.act:wank,+ noun.person:wanker,+] fuck_off, she-bop, jack_off, [jerk_off, noun.person:jerk-off,+] caress,* verb.perception:stimulate,@ frames: 2,9 (get sexual gratification through self-stimulation) }
+verb.contact:1235:{ [ masturbate1, noun.act:masturbation,+ ] masturbate,$ verb.perception:stimulate,@ frames: 9 (stimulate sexually; "The old man wanted to be masturbated by the prostitute")}
+verb.contact:1236:{ scarf, masturbate,@ frames: 2 (masturbate while strangling oneself) }
+verb.motion:607:{ turn14, direct1,@ frames: 22 (channel one's attention, interest, thought, or attention toward or away from something; "The pedophile turned to boys for satisfaction"; "people turn to mysticism at the turn of a millennium")}
+verb.perception:54:{ [ fellate, noun.act:fellation,+ ] suck, blow8, go_down_on, stimulate,@ frames: 9 (provide sexual gratification through oral stimulation) }
+verb.perception:454:{ [ come, noun.act:coming,+ ] experience1,@ frames: 2 (experience orgasm; "she could not come because she was too upset") }
+verb.social:752:{ [ botch, noun.person:botcher,+ noun.act:botch,+ ] bodge, [ bumble, noun.person:bumbler,+ ] [ fumble, noun.person:fumbler,+ ] botch_up, muff, blow, [ flub, noun.act:flub,+ ] [ screw_up, noun.act:screwup,+ ] [ball_up, noun.act:ballup,+] [ spoil2, noun.act:spoil1,+ noun.act:spoilage,+ noun.act:spoiling,+ ] muck_up, [ bungle, noun.act:bungle,+ noun.person:bungler,+ ] [ fluff, noun.act:fluff,+ ] bollix, bollix_up, bollocks, bollocks_up, bobble, mishandle, louse_up, [foul_up, noun.act:foul-up,+] [mess_up, noun.act:mess-up,+] [fuck_up, noun.act:fuckup,+] fail,@ frames: 2,8 (make a mess of, destroy or ruin; "I botched the dinner and we had to eat out"; "the pianist screwed up the difficult passage in the second movement") }
+verb.social:937:{ gang-rape, rape,@ frames: 9 (rape (someone) successively with several attackers; "The prisoner was gang-raped") }
+verb.social:994:{ [ whore, noun.person:whore,+ ] work2,@ frames: 2 (work as a prostitute) }
+verb.social:996:{ [ bastardize, noun.act:bastardization,+ noun.artifact:bastard,+ ] [ bastardise, noun.act:bastardisation,+ noun.artifact:bastard,+ ] corrupt,@ frames: 8 (change something so that its value declines; for example, art forms) }
+verb.stative:166:{ bum, bum_around, bum_about, arse_around, arse_about, fuck_off, [ loaf1, noun.person:loafer,+ ] frig_around, waste_one's_time, lounge_around, loll, loll_around, lounge_about, verb.social:idle,@ frames: 2,22 (be lazy or idle; "Her son is just bumming around all day") }
+verb.stative:329:{ suck, blow, be3,@ frames: 1 (be inadequate or objectionable; "this sucks!"; "this blows!")}
+
+SEARCHED MANUALLY AND REMOVED
+
+dict/dbfiles2$ grep -inR --color=auto fuck !(hits.txt)
+noun.person:2260:{ [ bungler, verb.social:bungle,+ verb.body:bungle,+ ] [ blunderer, verb.social:blunder,+ ] [ fumbler, verb.social:fumble,+ ] [ bumbler, verb.social:bumble,+ ] [ stumbler1, verb.cognition:stumble,+ ] sad_sack, [ botcher, verb.social:botch,+ ] [ butcher3, adj.all:unskilled^butcherly,+ ] fuckup, incompetent,@ (someone who makes mistakes because of incompetence) }
+verb.motion:911:{ scram, buzz_off, fuck_off, get15, bugger_off, leave1,@ frames: 2,1 (leave immediately; used usually in the imperative form; "Scram!") }
+
+dict/dbfiles2$ grep -inR --color=auto bitch !(hits.txt)
+noun.attribute:1200:{ [ cattiness, adj.all:malicious^catty,+ ] [ bitchiness, adj.all:malicious^bitchy,+ ] [ spite, verb.emotion:spite,+ ] [ spitefulness, adj.all:malicious^spiteful,+ ] [ nastiness2, adj.all:dirty2^nasty,+ adj.all:nasty,+ ] malevolence,@ (malevolence by virtue of being malicious or spiteful or nasty) }
+verb.communication:756:{ [ backbite, noun.person:backbiter,+ ] [ bitch, noun.communication:bitch,+ noun.act:bitchery,+ ] complain,@ frames: 2 (say mean things) }
+verb.communication:773:{ [ gripe, noun.communication:gripe,+ ] bitch1, grouse, [ crab, noun.person:crab,+ ] [ beef, noun.communication:beef,+ ] [ squawk, noun.communication:squawk,+ noun.person:squawker,+ ] [ bellyache, noun.person:bellyacher,+ ] holler, complain,@ frames: 2,22,26 (complain; "What was he hollering about?") }
+
+dict/dbfiles2$ grep -inR --color=auto -w bugger !(hits.txt)
+noun.act:4319:{ [ sodomy, noun.person:sodomist,+ verb.social:sodomize,+ verb.social:sodomise,+ ] [ buggery, verb.social:bugger,+ ] anal_sex, anal_intercourse, perversion1,@ (intercourse via the anus, committed by a man with a man or woman) }
+noun.person:6635:{ sodomite, [ sodomist, noun.act:sodomy,+ ] sod, [ bugger, verb.social:bugger,+ ] pervert,@ (someone who engages in anal copulation (especially a male who engages in anal copulation with another male)) }
+verb.social:938:{ [ sodomize, noun.act:sodomy,+ ] [ sodomise, noun.act:sodomy,+ ] [ bugger, noun.act:buggery,+ noun.person:bugger,+ ] verb.contact:copulate,@ frames: 9 (practice anal sex upon) }
+verb.social:939:{ sodomize1, sodomise1, verb.contact:copulate,@ frames: 8 (copulate with an animal)}
+
+dict/dbfiles2$ grep -inR --color=auto -w bastard !(hits.txt)
+verb.communication:1052:{ call, verb.cognition:call5,$ label,@ frames: 14,5 (ascribe a quality to or give a name of a common noun that reflects a quality; "He called me a bastard"; "She called her children lazy and ungrateful") }
+
+dict/dbfiles2$ grep -inR --color=auto -w bollock !(hits.txt)
+noun.body:1586:{ testis, [ testicle, adj.pert:testicular,+ ] orchis, ball1, ballock, bollock, nut, egg, male_reproductive_gland,@ gonad,@ male_reproductive_system,#p male_genitalia,#p (one of the two male reproductive glands that produce spermatozoa and secrete androgens; "she kicked him in the balls and got away") }
+
+dict/dbfiles2$ grep -inR --color=auto -w whore !(hits.txt)
+noun.act:3823:{ [ prostitution, verb.social:prostitute,+ ] harlotry, [ whoredom, noun.person:whore,+ ] vice_crime,@ (offering sexual intercourse for pay) }
+
+dict/dbfiles2$ grep -inR --color=auto -w boob !(hits.txt)
+verb.social:932:{ drop_the_ball, sin1, [ blunder, noun.person:blunderer,+ noun.act:blunder,+ frames: 8 ] [ boob, noun.person:boob,+ ] [ goof, noun.person:goof,+ ] transgress,@ frames: 2,22 (commit a faux pas or a fault or make a serious mistake; "I blundered during the job interview") }
+
+dict/dbfiles2$ grep -inR --color=auto -w cum !(hits.txt)
+noun.body:1000:{ [ semen, verb.body:inseminate,+ ] seed, seminal_fluid, [ ejaculate, verb.body:ejaculate,+ ] cum, come, liquid_body_substance,@ (the thick white fluid containing spermatozoa that is ejaculated by the male genital tract) }
+
+dict/dbfiles2$ grep -inR --color=auto -w fanny !(hits.txt)
+noun.body:1536:{ female_genitalia, female_genitals, female_genital_organ, fanny1, genitalia,@ female_body,#p female_reproductive_system,#p (external female sex organs; "in England `fanny' is vulgar slang for female genitals") }
+noun.body:1759:{ buttocks, nates, arse1, butt, backside, bum, buns, can, fundament, hindquarters, hind_end, keister, [ posterior, adj.all:posterior,+ ] prat, rear, rear_end, rump, stern, seat, tail1, tail_end, tooshie, tush, bottom, behind, derriere, fanny, ass, body_part,@ torso,#p (the fleshy part of the human body that you sit on; "he deserves a good kick in the butt"; "are you going to sit on your fanny and do nothing?") }
+
+dict/dbfiles2$ grep -inR --color=auto -w squirt !(hits.txt)
+noun.person:5553:{ pip-squeak, squirt, small_fry, cipher,@ (someone who is small and insignificant) }
+
+dict/dbfiles2$ grep -inR --color=auto -w 'offensive term' !(hits.txt)
+noun.person:3914:{ half-caste, mixed-blood,@ noun.communication:derogation,;u (an offensive term for the offspring of parents of different racial groups or cultures) }
+
+dict/dbfiles2$ grep -inR --color=auto -w gay !(hits.txt) | grep homo
+adj.all:8357:{ [ gay, noun.person:gay,+ noun.act:gayness,+ ] [ queer, noun.act:queerness,+ ] homophile(a), (homosexual or arousing homosexual desires) }
+noun.act:4350:{ [ homosexuality, adj.all:homosexual,+ ] homosexualism, [ homoeroticism, adj.all:homosexual^homoerotic,+ ] [ queerness, adj.all:homosexual^queer,+ ] [ gayness, adj.all:homosexual^gay,+ ] sexual_activity,@ (a sexual attraction to (or sexual relations with) persons of the same sex) }
+noun.person:4074:{ [ homosexual, adj.all:homosexual,+ ] homophile, homo, [ gay, adj.all:homosexual^gay,+ ] noun.Tops:person,@ (someone who is sexually attracted to persons of the same sex) }
+
+dict/dbfiles2$ grep -inR --color=auto -w 'hooker' !(hits.txt)
+noun.person:6864:{ [ streetwalker, verb.social:streetwalk,+ ] street_girl, hooker, [ hustler1, verb.possession:hustle,+ ] floozy, floozie, [ slattern1, adj.all:untidy^slatternly,+ ] prostitute,@ (a prostitute who attracts customers by walking the streets) }
+
+sundar@InfoRoverPod:~/Desktop/Filter/dict/dbfiles2$ grep -inR --color=auto 'jerk' !(hits.txt)
+adj.all:3193:{ anserine, [ dopy1, noun.person:dope,+ ] [ dopey1, noun.person:dope,+ ] [ foolish, noun.attribute:foolishness,+ ] [ goosey, noun.person:goose,+ ] [ goosy, noun.person:goose,+ ] gooselike, [ jerky, noun.person:jerk,+ ] noun.communication:colloquialism,;u (having or revealing stupidity; "ridiculous anserine behavior"; "a dopey answer"; "a dopey kid"; "some fool idea about rewriting authors' books") }
+noun.person:4302:{ [ jerk, adj.all:stupid^jerky,+ ] dork, misfit,@ (a dull stupid fatuous person) }
+noun.person:6253:{ schmuck, shmuck, schmo, shmo, jerk,@ noun.communication:Yiddish,;c ((Yiddish) a jerk) }
+
+dict/dbfiles2$ grep -inR --color=auto nigga !(hits.txt)
+adj.all:7791:{ grudging, [ niggardly, noun.person:niggard,+ noun.attribute:niggardliness,+ ] scrimy, (petty or reluctant in giving or spending; "a niggardly tip") }
+noun.attribute:1151:{ [ meanness1, adj.all:stingy^mean2,+ adj.all:stingy^mean1,+ ] [ minginess, adj.all:stingy^mingy,+ ] [ niggardliness, adj.all:stingy^niggardly,+ ] niggardness, [ parsimony1, adj.all:stingy^parsimonious,+ ] [ parsimoniousness1, adj.all:stingy^parsimonious,+ ] [ tightness1, adj.all:stingy^tight,+ ] [ tightfistedness, adj.all:stingy^tightfisted,+ ] [ closeness4, adj.all:stingy^close,+ ] stinginess,@ (extreme stinginess) }
+noun.attribute:1154:{ [ penuriousness, adj.all:stingy^penurious,+ ] stinginess,@ (a disposition to be niggardly with money) }
+noun.person:5128:{ [ niggard, adj.all:stingy^niggardly,+ ] skinflint, scrooge, churl2, hoarder,@ (a selfish person who is unwilling to give or spend) }
+noun.person:5543:{ pinchgut, niggard,@ (a niggardly person who starves himself (and others)) }
+
+dict/dbfiles2$ grep -inR --color=auto pimp !(hits.txt)
+noun.person:5542:{ [ pimp, verb.consumption:pimp,+ ] [ procurer, verb.consumption:procure,+ ] [ panderer, verb.consumption:pander,+ ] [ pander, verb.consumption:pander,+ ] pandar, fancy_man, ponce, wrongdoer,@ noun.location:England,;r (someone who procures customers for whores (in England they call a pimp a ponce)) }
+noun.person:5784:{ procuress, pimp,@ (a woman pimp) }
+noun.person:7609:{ whoremaster1, whoremonger1, pimp,@ (a pimp who procures whores) }
+
+dict/dbfiles2$ grep -inR --color=auto whore !(hits.txt)
+noun.artifact:11394:{ whorehouse, brothel, bordello, bagnio, house_of_prostitution, house_of_ill_repute, bawdyhouse, cathouse, sporting_house, building,@ (a building where prostitutes are available) }
+noun.person:2018:{ [ bastard1, adj.all:illegitimate^bastardly,+ verb.communication:bastardize,+ verb.communication:bastardise,+ ] by-blow, love_child, illegitimate_child, illegitimate, whoreson, offspring,@ (the illegitimate offspring of unmarried parents) }
+noun.person:7608:{ whoremaster1, whoremonger1, pimp,@ (a pimp who procures whores) }
+noun.person:7609:{ whoremaster2, whoremonger2, john1, trick, customer,@ (a prostitute's customer) }
+verb.communication:1356:{ whore1, compromise1,@ frames: 2 (compromise oneself for money or other gains; "She whored herself to Hollywood")}
+
+dict/dbfiles2$ grep -inR --color=auto 'shit' !(hits.txt)
+verb.communication:445:{ talk_through_one's_hat, [ bullshit, noun.communication:bullshit,+ ] [ bull, noun.communication:bull,+ ] [ fake, noun.artifact:fake,+ noun.person:faker,+ ] pretend,@ frames: 2,13 (speak insincerely or without regard for facts or truths; "The politician was not well prepared for the debate and faked it") }
+verb.communication:456:{ denounce1, tell_on, [ betray, noun.person:betrayer1,+ ] give_away1, [ rat9, noun.person:rat2,+ noun.person:ratter,+ noun.communication:ratting,+ frames: 22] [grass9, frames: 22] [ shit9, noun.process:shit,+ noun.substance:shit,+ frames: 22] [shop9, frames: 22] [ snitch9, noun.person:snitch,+ noun.person:snitcher,+ frames: 22] [stag9, frames: 22] inform,@ frames: 9 (give away information about somebody; "He told on his classmate who had cheated on the exam") }
+
+sundar@InfoRoverPod:~/Desktop/Filter/dict/dbfiles2$ grep -inR --color=auto 'poop' !(hits.txt)
+adj.all:3166:{ addlebrained, addlepated, puddingheaded, muddleheaded, (stupid and confused; "blathering like the addlepated nincompoop that you are"; "a confused puddingheaded, muddleheaded fellow"- Isaac Sterne) }
+adj.all:17276:{ regular(a), veritable(a), (often used as intensifiers; "a regular morass of details"; "a regular nincompoop"; "he's a veritable swine") }
+noun.communication:2048:{ dope, poop, the_skinny, low-down, details,@ (slang terms for inside information; "is that the straight dope?") }
+noun.person:5135:{ nincompoop, poop, ninny, simpleton,@ (a stupid foolish person) }
+noun.person:6713:{ spoilsport, killjoy, wet_blanket, party_pooper, unwelcome_person,@ noun.communication:colloquialism,;u (someone who spoils the pleasure of others) }
+verb.body:497:{ poop_out, peter_out, run_down, run_out, conk_out, tire,@ frames: 2 (use up all one's strength and energy and stop working; "At the end of the march, I pooped out") }
+
+sundar@InfoRoverPod:~/Desktop/Filter/dict/dbfiles2$ grep -inR --color=auto 'shit' !(hits.txt)
+noun.act:3740:{ scut_work, shitwork, job1,@ (trivial, unrewarding, tedious, dirty, and disagreeable chores; "the hospital hired him to do scut work") }
+noun.attribute:2914:{ damn, darn, hoot, red_cent, [ shit, adj.all:bad^shitty,+ ] shucks, tinker's_damn, tinker's_dam, worthlessness,@ (something of little value; "his promise is not worth a damn"; "not worth one red cent"; "not worth shucks") }
+noun.communication:1215:{ [ blacklist, verb.social:blacklist,+ ] black_book, shitlist, list,@ (a list of people who are out of favor) }
+
+dict/dbfiles2$ grep -inR --color=auto 'slut' !(hits.txt)
+adj.all:2650:{ easy, light, [ loose, noun.act:looseness,+ ] [ promiscuous, noun.act:promiscuousness,+ noun.act:promiscuity,+ ] [ sluttish, noun.attribute:sluttishness,+ ] [ wanton, noun.person:wanton,+ noun.attribute:wantonness1,+ ] (casual and unrestrained in sexual behavior; "her easy virtue"; "he was told to avoid loose (or light) women"; "wanton behavior") }
+noun.attribute:1511:{ [ slatternliness, adj.all:untidy^slatternly,+ ] [ sluttishness, adj.all:untidy^sluttish,+ adj.all:unchaste^sluttish,+ ] slovenliness,@ (in the manner of a slattern) }
+noun.person:6551:{ [ slattern, adj.all:untidy^slatternly,+ ] slut1, slovenly_woman, trollop1, slob,@ (a dirty untidy woman) }
+
+dict/dbfiles2$ grep -inR --color=auto 'titty' !(hits.txt)
+noun.body:1733:{ breast, [ bosom, adj.all:shapely^bosomy,+ ] knocker, boob, tit1, titty, mamma,@ adult_female_body,#p (either of two soft fleshy milk-secreting glandular organs on the chest of a woman) }
+
+dict/dbfiles2$ grep -inR --color=auto -E ' twat([[:punct:]]|[[:digit:]])*' !(hits.txt)
+noun.person:3914:{ fathead, [ goof, adj.all:foolish^goofy,+ verb.social:goof,+ ] goofball, bozo1, [ goose, adj.all:stupid^goosy,+ adj.all:stupid^goosey,+ ] cuckoo, twat, [ zany1, adj.all:humorous^zany,+ adj.all:foolish^zany,+ ] fool,@ (a man who is a stupid incompetent fool) }
+
+SPOTTED
+{ dummy1, silent_person, mute,@ (a person who does not talk) }
+
+SPOTTED WHEN FIXING UNRESOLVED POINTER ERROR
+adj.all:{ [ blockheaded, noun.person:blockhead,+ ] [ boneheaded, noun.person:bonehead,+ ] [ duncical, noun.person:dunce,+ ] [ duncish, noun.person:dunce,+ ] [ fatheaded, noun.person:fathead,+ ] loggerheaded, thick, thickheaded, thick-skulled, wooden-headed, ((used informally) stupid) }
+adj.all:{ [ pederastic, noun.person:pederast,+ ] [ paederastic, noun.person:paederast,+ ] (of homosexuality between a man and a boy) }
+
+dict/dbfiles3$ grep -inR --color=auto 'tribad'
+grep: .#errors.txt: No such file or directory
+noun.person:4493:{ [ lesbian, adj.all:homosexual^lesbian,+ ] tribade, gay_woman, homosexual,@ (a female homosexual) }
+adj.all:18248:{ [ tribadistic, noun.act:tribadism,+ ] (of female homosexual behavior that attempts to simulate heterosexual behavior) }
+
+adj.pert:{ [ sadomasochistic, noun.feeling:sadomasochism,+ noun.feeling:sadomasochism,\ ] (of or relating to sadomasochism; "sadomasochistic sexual practices") }
+adj.pert:{ [ Roman, noun.cognition:Romanism,\ ] [ R.C., noun.cognition:Romanism,\ ] [ Romanist, noun.cognition:Romanism,\ ] [ romish, noun.cognition:Romanism,\ ] [ Roman_Catholic, noun.cognition:Romanism,\ ] popish, [ papist, noun.person:papist,+ ] [ papistic, noun.person:papist,+ ] [ papistical, noun.person:papist,+ ] (of or relating to or supporting Romanism; "the Roman Catholic Church") }
+adv.all:2703:{ [ masochistically, adj.all:masochistic,\] (in a masochistic manner; "masochistically he insisted on an even greater workload") }
+noun.act:150:{ orgasm, [ climax, adj.all:climactic,+ ] sexual_climax, [ coming, verb.perception:come,+ ] consummation,@ (the moment of most intense pleasure in sexual intercourse) }
+noun.act:683:{ sexual_conquest, [ score1, verb.contact:score1,+ ] seduction1,@ (a seduction culminating in sexual intercourse; "calling his seduction of the girl a `score' was a typical example of male slang") }
+noun.act:{ [ barbarization, verb.change:barbarize,+ ] [ barbarisation, verb.change:barbarise1,+ verb.change:barbarise,+ ] degradation,@ (an act that makes people primitive and uncivilized) }
+noun.act:{ [ bastardization, verb.social:bastardize,+ ] [ bastardisation, verb.social:bastardise,+ ] degradation,@ (an act that debases or corrupts) }
+noun.act:2627:{ fan_dance, nude_dancing,@ (a solo dance in which large fans are manipulated to suggest or reveal nakedness) }
+noun.act:2628:{ bubble_dance, nude_dancing,@ (a solo dance similar to a fan dance except large balloons are used instead of fans) }
+noun.act:{ sexual_love, lovemaking, making_love, [ love, verb.contact:love,+ ] love_life, sexual_activity,@ (sexual activities (often including sexual intercourse) between two people; "his lovemaking disgusted her"; "he hadn't had any love in months"; "he has a very complicated love life") }
+noun.group:{ trash1, scum1, rabble1,@ (worthless people) }
+noun.person:{ [ lover2, verb.contact:love,+ ] significant_other,@ (a significant other to whom you are not related by marriage) }
+{ [ defecator, verb.body:defecate,+ ] [ voider1, verb.body:void,+ ] [ shitter, verb.body:shit,+ ] noun.Tops:person,@ (a person who defecates) }
+{ [ slattern, adj.all:untidy^slatternly,+ ] slovenly_woman, trollop1, slob,@ (a dirty untidy woman) }
+{ [ hustler1, verb.possession:hustle,+ ] [ slattern1, adj.all:untidy^slatternly,+ ] prostitute,@ (a prostitute who attracts customers by walking the streets) }
+{ [ swinger, verb.contact:swing8,+ ] tramp1, libertine,@ (a person who engages freely in promiscuous sex) }
+
+dict/dbfiles3$ grep -inR --color=auto 'transves'
+noun.person:7246:{ [ transvestite, adj.all:transvestic,+ ] noun.Tops:person,@ (someone who adopts the dress or manner or sexual role of the opposite sex) }
+adj.all:18247:{ [ transvestic, noun.person:transvestite,+ ] [transvestite, noun.person:transvestite,+] (receiving sexual gratification from wearing clothing of the opposite sex) }
+noun.person:{ Lee5, Gypsy_Rose_Lee, Rose_Louise_Hovick, stripper,@i (United States striptease artist who became famous on Broadway in the 1930s (1914-1970)) }
+noun.process:{ [ defecation, verb.body:defecate,+ ] laxation, [ shitting, verb.body:shit,+ ] elimination,@ (the elimination of fecal waste through the anus) }
+verb.body:{ [ undress, noun.state:undress,+ dress1,! ] discase, uncase, unclothe, [ strip1, noun.act:strip,+ noun.person:stripper,+ ] strip_down, disrobe1, [ peel2, noun.person:peeler,+ ] verb.change:take_off,@ frames: 8,9,2 (get undressed; "please don't undress in front of everybody!"; "She strips in front of strangers every night for a living" ) }
+
+
+dict/dbfiles3$ grep -inR --color=auto 'shit'
+noun.quantity:1519:{ jack, doodly-squat, diddly-squat, diddlysquat, diddly-shit, diddlyshit, diddly, diddley, squat, shit, small_indefinite_quantity,@ (a small worthless amount; "you don't know jack") }
+verb.body:370:{ [ dung, noun.substance:dung,+ ] shit,@ frames: 1 (defecate; used of animals) }
+
+verb.change:{ [ snafu, noun.act:snafu,+ ] snarl,@ frames: 8,11 (cause to be in a state of complete confusion)}
+verb.communication:{ [ bastardize, noun.communication:bastardization,+ noun.person:bastard1,+ ] [ bastardise, noun.person:bastard1,+ ] declare4,@ frames: 9 (declare a child to be illegitimate) }
+verb.consumption:{ [ pander, noun.person:pander,+ noun.person:panderer,+ ] [ pimp, noun.person:pimp,+ ] [ procure, noun.person:procurer,+ ] supply,@ frames: 2 (arrange for sexual partners for others) }
+verb.contact:{ [ neck, noun.person:necker,+ noun.act:necking,+ ] make_out1, make_out,$ pet,@ frames: 9 (kiss, embrace, or fondle with sexual passion; "The couple were necking in the back seat of the car") }
+verb.contact:{ [ fornicate, noun.act:fornication,+ noun.person:fornicator,+ ] love,@ frames: 2 (have sex without being married) }
+verb.contact:{ [ seduce, noun.act:seduction1,+ noun.person:seducer,+ ] make_love,* verb.communication: persuade,@ frames: 9 (induce to have sex; "Harry finally seduced Sally"; "Did you score last night?"; "Harry made Sally") }
+verb.contact:{ [ mongrelize, noun.artifact:mongrel,+ noun.animal:mongrel,+ ] mongrelise, breed1,@ frames: 8 (cause to become a mongrel; "mongrelized dogs") }
+verb.contact:{ [ absorb, noun.process:absorption,+ noun.substance:absorber,+ ] [ suck, noun.act:suck,+ noun.person:sucker1,+ suck_in1,^ ] [ imbibe1, noun.person:imbiber,+ ] soak_up, sop_up, suck_up, [draw4, draw_in,^ draw_in1,^ ] take_in4, take_up3, frames: 11 (take in, also metaphorically; "The sponge absorbs water well"; "She drew strength from the minister's words")}
+verb.creation:{ [ consummate1, noun.act:consummation1,+ noun.act:consummation,+ ] verb.contact:make_love,* carry_through,@ frames: 8 (fulfill sexually; "consummate a marriage") }
+verb.social:{ [ botch, noun.person:botcher,+ noun.act:botch,+ ] bodge, [ bumble, noun.person:bumbler,+ ] [ fumble, noun.person:fumbler,+ ] botch_up, muff, blow, [ flub, noun.act:flub,+ ] [ball_up, noun.act:ballup,+] [ spoil2, noun.act:spoil1,+ noun.act:spoilage,+ noun.act:spoiling,+ ] muck_up, [ bungle, noun.act:bungle,+ noun.person:bungler,+ ] [ fluff, noun.act:fluff,+ ] bollix, bollix_up, bobble, mishandle, louse_up, [foul_up, noun.act:foul-up,+] [mess_up, noun.act:mess-up,+] fail,@ frames: 2,8 (make a mess of, destroy or ruin; "I botched the dinner and we had to eat out"; "the pianist spoiled the difficult passage in the second movement") }
+verb.social:{ street-walk, [ streetwalk, noun.person:streetwalker,+ ] prostitute,@ frames: 2 (walk the streets in search of customers; "The prostitute is street-walking every night")}
+
+adj.all:{ [ bastardly, noun.person:bastard1,+ ] misbegot, misbegotten, spurious, (born out of wedlock; "the dominions of both rulers passed away to their spurious or doubtful offspring"- E.A.Freeman) }
+adj.all:{ [ bum, noun.person:bum2,+ ] [ cheap, noun.attribute:cheapness2,+ ] cheesy, chintzy, crummy, punk, [ sleazy, noun.attribute:sleaziness,+ noun.attribute:sleaze,+ ] tinny, noun.communication:colloquialism,;u (of very poor quality; flimsy) }
+noun.act:{ [ bastardization, verb.social:bastardize,+ ] [ bastardisation, verb.social:bastardise,+ ] degradation,@ (an act that debases or corrupts) }
+noun.act:{ paternity_suit, bastardy_proceeding, lawsuit,@ noun.group:law,;c (a lawsuit filed to determine the father of a child born out of wedlock (and to provide for the support of the child once paternity is determined)) }
+noun.act:{ popery, [ papism, noun.person:papist,+ ] practice,@ (offensive terms for the practices and rituals of the Roman Catholic Church) }
+noun.act:{ [ screwup, verb.social:screw_up,+ ] mismanagement,@ (the complete mismanagement or mishandling of a situation; "a typical bureaucratic screwup") }
+noun.animal:{ cur, [ mongrel, verb.contact:mongrelize,+ ] mutt, domestic_dog,@ (an inferior dog or one of mixed breed) }
+noun.artifact:{ [ bed, verb.possession:bed,+ verb.contact:bed1,+ verb.contact:bed,+ ] bedroom_furniture,@ bedroom,#p (a piece of furniture that provides a place to sleep; "he sat on the edge of the bed"; "the room had only a bed and chair") }
+noun.artifact:{ toilet1, can3, commode, [ crapper, verb.body:crap,+ ] pot1, potty1, [ stool1, verb.body:stool,+ ] throne1, plumbing_fixture,@ toilet,#p bathroom,#p (a plumbing fixture for defecation and urination) }
+noun.attribute:{ [ slatternliness, adj.all:untidy^slatternly,+ ] slovenliness,@ (in the manner of a slattern) }
+adj.all:{ pint-size, pint-sized, [ runty, noun.person:runt,+ noun.attribute:runtiness,+ ] sawed-off, sawn-off, noun.communication:slang,;u (well below average height) }
+noun.feeling:{ [ love1, verb.contact:love,+ ] sexual_love, erotic_love, sexual_desire,@ (a deep feeling of sexual desire and attraction; "their love left them indifferent to their surroundings"; "she was his first love") }
+verb.body:{ [ undress, noun.state:undress,+ dress1,! ] discase, uncase, unclothe, [ strip1, noun.act:strip,+ ] strip_down, disrobe1, verb.change:take_off,@ frames: 8,9,2 (get undressed; "please undress in your room") }
+verb.body:{ make1, [ urinate, noun.process:urination,+ noun.substance:urine,+ noun.person:urinator,+ ] [ piddle, noun.substance:piddle,+ ] puddle, [ micturate, noun.process:micturition,+ ] [ piss, noun.process:piss,+ noun.substance:piss,+ noun.person:pisser,+ noun.process:pissing,+ ] [ pee, noun.process:pee,+ noun.substance:pee,+ noun.process:peeing,+ ] pee-pee, make_water, relieve_oneself, take_a_leak, spend_a_penny, wee, wee-wee, pass_water, make,$ excrete,@ frames: 2,1 (eliminate urine; "Again, the cat had made on the expensive rug")}
+verb.change:{ [ strip12, noun.act:strip,+ ] [ undress, noun.state:undress,+ ] divest13, disinvest, verb.body:strip1,$ remove,@ frames: 9,8 (remove (someone's or one's own) clothes; "The nurse quickly undressed the accident victim"; "She divested herself of her outdoor clothes"; "He disinvested himself of his garments") }
+verb.contact:{ [ flagellate, noun.artifact:flagellum,+ noun.act:flagellation,+ noun.person:flagellant1,+ noun.person:flagellant,+ ] [ scourge, noun.artifact:scourge,+ noun.person:scourger,+ ] whip,@ frames: 9 (whip; "The religious fanatics flagellated themselves") }
+noun.person:{ [ pisser, verb.body:piss,+ ] [ urinator, verb.body:urinate,+ ] noun.Tops:person,@ (a person who urinates) }
+noun.substance:{ [ urine, adj.pert:urinary,+ verb.body:urinate,+ ] [ piss, verb.body:piss,+ ] [ pee, verb.body:pee,+ ] [ piddle, verb.body:piddle,+ ] weewee, water1, body_waste,@ (liquid excretory product; "there was blood in his urine"; "the child had to make water") }
+verb.change:{ [ undress, noun.state:undress,+ ] divest13, disinvest, verb.body:strip1,$ remove,@ frames: 9,8 (remove (someone's or one's own) clothes; "The nurse quickly undressed the accident victim"; "She divested herself of her outdoor clothes"; "He disinvested himself of his garments") }
+noun.person:{ [ panderer, verb.consumption:pander,+ ] [ pander, verb.consumption:pander,+ ] pandar, wrongdoer,@ noun.location:England,;r (someone who procures customers for prostitutes) }
+
+
+FIXED COMPILATION ERRORS AND WARNINGS
+
+POST-GENERATION NOTES
+• After generation of dictfiles, one has to sort the 5 index files lexicographically
+• Verified that the order is correct and that only the filtered words are missing from the indices by removing all fields except the first and diffing with the original indices
+• Additionally fix copyright message with the right WordNet version number and year
+• Supporting files include adj.exc, adv.exc, cntlist.rev, noun.exc, sentidx.vrb, sents.vrb, verb.exc - which are used as-is from WordNet 3.1 dict files
+• cntlist and cntlist.rev are the same files with different sort keys - former is used to generate dictfiles; latter is required at runtime for functions like pos_list_compare in WNI
+• However cntlist needn't be filtered since they only contain a sense's tag count and don't participate in the search results
